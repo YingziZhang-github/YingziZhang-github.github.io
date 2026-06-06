@@ -14,7 +14,7 @@ Then visit `http://localhost:8080`.
 
 ## Update Links
 
-The Xiaohongshu profile slot is intentionally marked as a placeholder because the exact URL was not present in the CV. Update the `href` value in the `#connect` section of `index.html` when the URL is available.
+Profile links are maintained directly in the `#connect` section of `index.html`.
 
 ## Public Hosting
 

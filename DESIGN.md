@@ -79,5 +79,4 @@
 
 ## Open questions
 - [ ] Add exact Bilibili profile URL / owner: Yingzi / impact: connect section becomes fully external.
-- [ ] Add exact Xiaohongshu profile URL / owner: Yingzi / impact: connect section becomes fully external.
 - [ ] Decide whether to publish phone numbers / owner: Yingzi / impact: privacy and recruitment contact behavior.
