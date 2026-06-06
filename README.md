@@ -14,7 +14,7 @@ Then visit `http://localhost:8080`.
 
 ## Update Links
 
-The Bilibili, Xiaohongshu, and Joyrun profile slots are intentionally marked as placeholders because exact URLs were not present in the CV. Update the `href` values in the `#connect` section of `index.html` when the URLs are available.
+The Xiaohongshu profile slot is intentionally marked as a placeholder because the exact URL was not present in the CV. Update the `href` value in the `#connect` section of `index.html` when the URL is available.
 
 ## Public Hosting
 
