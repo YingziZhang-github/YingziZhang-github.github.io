@@ -227,8 +227,8 @@ h1 {
 
 h2 {
   margin-bottom: 0;
-  font-size: clamp(1.8rem, 3vw, 3rem);
-  line-height: 1.08;
+  font-size: clamp(0.95rem, 1.35vw, 1.12rem);
+  line-height: 1.32;
   letter-spacing: 0;
 }
 
@@ -355,7 +355,7 @@ h3 {
 
 .section-heading {
   max-width: 780px;
-  margin-bottom: 34px;
+  margin-bottom: 22px;
 }
 
 .section-note {
