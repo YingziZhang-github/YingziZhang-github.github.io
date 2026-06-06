@@ -159,8 +159,7 @@ button:focus-visible {
   min-width: 0;
 }
 
-.hero-portrait,
-.intro-photo {
+.hero-portrait {
   margin: 0;
 }
 
@@ -174,8 +173,7 @@ button:focus-visible {
   box-shadow: var(--shadow);
 }
 
-.hero-portrait img,
-.intro-photo img {
+.hero-portrait img {
   display: block;
   width: 100%;
   height: auto;
@@ -195,20 +193,6 @@ button:focus-visible {
 .hero-portrait span {
   color: rgba(251, 251, 246, 0.68);
   font-size: 0.88rem;
-}
-
-.intro-photo {
-  width: min(340px, 100%);
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: var(--surface-strong);
-  box-shadow: 0 14px 30px rgba(31, 38, 37, 0.08);
-}
-
-.intro-photo img {
-  border-radius: 12px;
 }
 
 .eyebrow,
@@ -465,8 +449,29 @@ h3 {
   grid-template-columns: 1fr;
 }
 
+.publication-list.grouped-list {
+  gap: 22px;
+}
+
+.publication-year-group {
+  display: grid;
+  gap: 12px;
+}
+
+.publication-year-group > h3 {
+  margin: 0;
+  color: var(--gold);
+  font-size: 1.2rem;
+}
+
 .publication-list article {
   padding: 20px;
+}
+
+.publication-list h4 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  line-height: 1.45;
 }
 
 .publication-list time {
