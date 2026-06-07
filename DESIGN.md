@@ -14,7 +14,7 @@
 ## Product goals
 - Goals: Present Yingzi Zhang as a researcher working across long-read sequencing, genome diagnostics, epigenomic stability, and clinical translation; make major projects and publications easy to scan; provide contact and social entry points.
 - Non-goals: Full publication database, lab notebook, private project repository, grant application packet.
-- Success signals: A visitor can understand research focus in one viewport, find featured projects in one scroll, download the CV, and identify missing social URLs that can be filled later.
+- Success signals: A visitor can understand research focus in one viewport, find featured projects in one scroll, download the CV, and reach selected academic, professional, and personal profile links.
 
 ## Personas and jobs
 - Primary personas: Faculty/search committees, collaborators, translational medicine partners, conference contacts, students, science-media readers.
@@ -24,12 +24,12 @@
 ## Information architecture
 - Primary navigation: Research, Projects, Publications, Timeline, Media, Connect.
 - Core routes/screens: One-page static homepage with anchor navigation.
-- Content hierarchy: Identity and research thesis; metrics; research pillars; featured projects; selected publications; career timeline; leadership/media; contact and social links.
+- Content hierarchy: Identity and research thesis; metrics; research pillars; featured projects; selected publications; career timeline; recognition; media; hobbies; contact and social links.
 
 ## Design principles
 - Principle 1: Evidence first; every major claim should trace to CV-derived facts.
 - Principle 2: Dense but calm; use compact cards and bands so the page feels like a professional dossier, not a marketing splash.
-- Tradeoffs: Some social links are placeholders because URLs were not present in the CV; this is made visible instead of inventing targets.
+- Tradeoffs: Personal channels are included only when exact URLs are provided; no profile URLs are invented.
 
 ## Visual language
 - Color: Off-white research paper base, deep ink text, restrained teal/green and red diagnostic accents, neutral borders.
@@ -41,8 +41,8 @@
 
 ## Components
 - Existing components to reuse: None; static site created from scratch.
-- New/changed components: Hero, navigation bar, metrics, research pillar cards, project cards, publication list, timeline, media list, social link grid.
-- Variants and states: Active nav, placeholder social links, hover/focus states, mobile navigation collapse through wrapping.
+- New/changed components: Hero, navigation bar, metrics, research pillar cards, project cards, publication list, timeline, media list, hobbies panel, social link grid.
+- Variants and states: Active nav, hover/focus states, mobile navigation collapse through wrapping.
 - Token/component ownership: `styles.css` CSS custom properties.
 
 ## Accessibility
@@ -59,10 +59,10 @@
 
 ## Interaction states
 - Loading: Static page, no loading state required.
-- Empty: Social links without URLs are marked as "Add URL".
+- Empty: Missing social links are omitted until exact URLs are provided.
 - Error: External link failures are outside static-site control.
 - Success: Copyable/downloadable CV and visible contact link.
-- Disabled: Placeholder links use `aria-disabled="true"` and visible muted styling.
+- Disabled: No disabled social placeholders are shown.
 - Offline/slow network, if applicable: Local assets are bundled; no CDN dependency.
 
 ## Content voice

@@ -373,6 +373,18 @@ h3 {
   font-size: 0.94rem;
 }
 
+.section-heading .section-note,
+.section-heading.with-action .section-note {
+  margin: 8px 0 0;
+}
+
+.section-copy {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
 .section-heading.with-action {
   max-width: none;
   display: flex;
