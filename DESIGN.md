@@ -24,7 +24,7 @@
 ## Information architecture
 - Primary navigation: Research, Projects, Publications, Timeline, Media, Connect.
 - Core routes/screens: One-page static homepage with anchor navigation.
-- Content hierarchy: Identity and research thesis; metrics; research pillars; featured projects; selected publications; career timeline; recognition; media; hobbies; contact and social links.
+- Content hierarchy: Identity and research thesis; metrics; research pillars; featured projects; selected publications; career timeline; recognition; media; contact and social links.
 
 ## Design principles
 - Principle 1: Evidence first; every major claim should trace to CV-derived facts.
@@ -41,7 +41,7 @@
 
 ## Components
 - Existing components to reuse: None; static site created from scratch.
-- New/changed components: Hero, navigation bar, metrics, research pillar cards, project cards, publication list, timeline, media list, hobbies panel, social link grid.
+- New/changed components: Hero, navigation bar, metrics, research pillar cards, project cards, publication list, timeline, media list, social link grid.
 - Variants and states: Active nav, hover/focus states, mobile navigation collapse through wrapping.
 - Token/component ownership: `styles.css` CSS custom properties.
 
@@ -78,5 +78,4 @@
 - Test/screenshot expectations: Validate file presence, HTML sanity, local server response, and visual screenshot when possible.
 
 ## Open questions
-- [ ] Add exact Bilibili profile URL / owner: Yingzi / impact: connect section becomes fully external.
 - [ ] Decide whether to publish phone numbers / owner: Yingzi / impact: privacy and recruitment contact behavior.
